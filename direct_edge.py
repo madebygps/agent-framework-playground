@@ -26,6 +26,7 @@ async def remove_vowels(text: str, ctx:WorkflowContext[str, str]) -> None:
 
 async def main():
     upper = UpperCase(id='uppercase')
+    
     builder = WorkflowBuilder()
     builder.add_edge(upper, remove_vowels)
     builder.set_start_executor(upper)

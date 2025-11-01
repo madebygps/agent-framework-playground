@@ -15,27 +15,11 @@ uv sync
 
 ## Examples
 
-### Direct Edges (`direct_edge.py`)
-Demonstrates direct workflow connections between executors. Shows how to chain operations that always execute in sequence.
+- **Direct Edges** (`direct_edge.py`) - Chain operations that always execute in sequence. [Documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges?pivots=programming-language-python#direct-edges)
 
-**Example**: Converts text to uppercase (`hola mundo` → `HLA MNDÖ`), then removes vowels.
+- **Conditional Edges** (`conditional_edge.py`) - Branch execution based on runtime conditions. [Documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges?pivots=programming-language-python#conditional-edges)
 
-Based on: [Direct Edges documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges?pivots=programming-language-python#direct-edges)
-
-```bash
-uv run direct_edge.py
-```
-
-### Conditional Edges (`conditional_edge.py`)
-Demonstrates conditional routing in workflows. Shows how to branch execution based on runtime conditions.
-
-**Example**: Email spam detector that routes messages to different handlers based on spam keyword detection.
-
-Based on: [Conditional Edges documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges?pivots=programming-language-python#conditional-edges)
-
-```bash
-uv run conditional_edge.py
-```
+- **Switch-Case Edges** (`switch_edge_cases.py`) - Multi-way branching with case conditions and default fallback. [Documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges?pivots=programming-language-python#switch-case-edges)
 
 ## Resources
 
