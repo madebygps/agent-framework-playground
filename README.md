@@ -15,6 +15,8 @@ uv sync
 
 ## Examples
 
+- **Built-in Agent** (`built_in_agent.py`) - Demonstrates using the built-in ChatAgent executor with Azure OpenAI for creating AI agents in workflows. Shows a writer-reviewer pipeline with streaming execution. [Documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/using-agents?pivots=programming-language-python#using-the-built-in-agent-executor)
+
 - **Direct Edges** (`direct_edge.py`) - Chain operations that always execute in sequence. [Documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges?pivots=programming-language-python#direct-edges)
 
 - **Conditional Edges** (`conditional_edge.py`) - Branch execution based on runtime conditions. [Documentation](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges?pivots=programming-language-python#conditional-edges)
@@ -32,3 +34,4 @@ uv sync
 ## Resources
 
 - [Microsoft Agent Framework Documentation](https://learn.microsoft.com/en-us/agent-framework/)
+g   
